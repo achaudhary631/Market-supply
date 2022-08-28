@@ -1,0 +1,512 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background: #F3F3F3;
+}
+header{
+    background:black;
+    padding: 20px 0;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.topnav li{
+    display: inline;   
+    border-right: 1px solid white;
+}
+.topnav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding: 13px;  
+}
+.topnav{
+    padding-bottom: 20px;
+}
+.topright{
+    text-align: right;
+}
+.a{
+    width:535px;
+    height:38px;
+    border:none;
+    border-radius: 8px 0 0 8px;
+    padding:20px;
+}
+.btn{
+    background: red;
+    color: white;
+    padding:12px 13px;
+    border: none;
+}
+.cart{
+    height:40px;
+    width:40px;
+    background: red;
+    color:white;
+    border-radius: 50%;
+    text-align: center;
+    margin-left:20px;
+    margin-right: 5px;
+    line-height: 40px;
+    text-align: center;
+}
+.total{
+    color: white;
+    text-align: justify;
+    font-size: 12px;   
+}
+.menu{
+    background: #F10E34;
+}
+.box li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+.box li{
+    display: inline-block;
+    padding-right:30px;
+    line-height: 45px;
+}
+.box li a:hover{
+    color:red;
+    background: white;
+}
+.main {
+    display: grid;
+    grid-template-areas: 'a b b b b' 'c d d d d' 'e f f g g' 'e h h h h' 'i h h h h' 'j k k k k' 'j l l l l' '. l l l l';
+    gap:30px;
+}
+.aa{grid-area: a;}
+.bb{grid-area: b;}
+.cc{grid-area: c;}
+.dd{grid-area: d;}
+.ee{grid-area: e;}
+.ff{grid-area: f;}
+.gg{grid-area: g;}
+.hh{grid-area: h;}
+.ii{grid-area: i;}
+.jj{grid-area: j;}
+.kk{grid-area: k;}
+.ll{grid-area: l;}
+.aa ul{
+    list-style: none;
+    background: white;
+    }
+.aa ul li{
+    border-bottom: 1px solid #ccc;
+    line-height: 45px;
+    font-size: 12px;
+    margin:0 10px;   
+}
+.aa ul li::before{
+    content:"\f01d";
+    font-family: FontAwesome;
+    margin:0 20px;
+}
+.aa ul li a{
+    text-decoration: none;    
+}
+.image{
+    background-image: url(../image/Layer\ 5\ copy.png);
+    background-repeat: no-repeat;
+     
+}
+.text1{
+    font-size: x-large;
+    text-align:justify ;
+    padding:100px;
+
+}
+.text1 h3{
+    font-weight: bolder;
+    color: #303A7A;  
+    
+}
+.text1 h1{
+    font-weight: bolder;
+    font-weight:bolder;
+    color: white;
+}
+.text1 h5{
+    font-weight: bolder;
+    font-weight:bolder;
+    color: white;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.text1 button{
+    height:30px;
+    width: 100px;
+    border: 1px black solid;
+    background: #FFC86C;
+    margin-left: 60px;
+}
+.text1 a{
+    text-decoration: none;
+    color:black;
+    line-height: 30px;
+}
+.flex1{
+    display: flex;
+    justify-content: space-evenly ;
+}
+.imdown{
+    background:#F10E34;
+    padding:11px 0;
+    color: white;
+}
+.deals2::before{
+    content:"\f137";
+    font-family:FontAwesome ;
+    color: red;
+    border: none;
+}
+.deals2::after{
+    content:"\f138";
+    font-family: FontAwesome;
+}
+.cc{
+    background: white;
+    padding:20px;
+}
+.toppart{
+   border-bottom:1px solid #ccc;
+   padding-bottom: 15px; 
+   margin-bottom: 20px; 
+   
+}
+.cc p{
+    padding-top: 20px;
+    text-align: center;
+}
+.cc ul li{
+    display: inline-block;
+    padding-right: 10px;
+}
+.cc ul{
+    list-style: none;
+    text-align: center;
+    padding: 5px 0;
+}
+.cc li h5{
+    text-decoration: line-through;
+}
+.star ul li{
+    padding: 0;
+    color:#FFCE7A;
+}
+
+.dd{
+    background: white;
+    padding:20px;
+    
+}
+.dd p{
+    text-align: center;
+    padding-top: 20px;
+}
+.dd ul li{
+    display: inline-block;
+    padding-right: 10px;
+}
+.dd ul{
+    list-style: none;
+    text-align: center;
+    padding: 5px 0;
+}
+.dd li h5{
+    text-decoration: line-through;
+}
+.star ul li{
+    color:#FFCE7A;
+    padding: 0;
+}
+.flex3{
+    display: flex;
+    justify-content: space-between;
+}
+.ee{
+    background: white;
+    padding:20px;
+}
+.ee p{
+    padding-top: 20px;
+    text-align: center;
+}
+.ee ul li{
+    display: inline-block;
+    padding-right: 10px;
+}
+.ee ul{
+    list-style: none;
+    text-align: center;
+    padding: 5px 0;
+}
+.ee li h5{
+    text-decoration: line-through;
+}
+.star ul li{
+    padding: 0;
+    color:#FFCE7A;
+}
+.grid{
+    display:grid;
+}
+.hh{
+    background: white;
+    padding:20px;
+}
+.hh p{
+    padding-top: 20px;
+    text-align: center;
+}
+.hh ul li{
+    display: inline-block;
+    padding-right: 10px;
+}
+.hh ul{
+    list-style: none;
+    text-align: center;
+    padding: 5px 0;
+}
+.hh li h5{
+    text-decoration: line-through;
+}
+.star ul li{
+    padding: 0;
+    color:#FFCE7A;
+}
+.deals2::before{
+    content:"\f137";
+    font-family:FontAwesome ;
+    color: red;
+    border: none;
+}
+.deals2::after{
+    content:"\f138";
+    font-family: FontAwesome;
+}
+.deals3 h5{
+    word-spacing: 30px;  
+     padding-right: 50px;
+}
+.ii{
+    background: white;
+}
+.border{
+    border: 1px solid #ccc;
+}
+.topparti{
+    margin: 5px;
+    padding: 20px;
+}
+.topparti h3{
+    padding-bottom: 20px;
+}
+.topparti h5{
+    padding:20px 0;
+    font-weight: 500;
+}
+.itext{
+    height:38px;
+    width:240px;
+    background: #ccc;
+    border: none;
+    border-radius: 3%;
+}
+.subscris{
+    margin:20px 0;
+    height:40px;
+    width:121px;
+    border: none;
+    background: red;
+    border-radius: 50px;
+    
+}
+.ibut a {
+    text-decoration: none;
+    padding:6px;
+    line-height: 10px;
+    color: white;   
+}
+.flex4{
+    display: flex;
+    justify-content: flex-start;
+}
+.kk{
+    background: white;
+}
+.kkright{
+    margin:40px 0px;
+}
+.shn{
+    padding:15px 20px;
+    margin-top: 30px;
+    border-radius: 50px;
+    background: red;
+    border: none;
+}
+.shn a{
+    text-decoration: none;
+    color: white;
+}
+.re{
+    color:blue;
+}
+.llmain{
+    padding:30px 35px;
+}
+.lltop h3{
+    padding-bottom: 20px;
+}
+.flex2{
+    display: flex;
+    justify-content: left;
+}
+.ll{
+    background: white;
+}
+.llmid{
+    padding:20px 10px;
+}
+.mid2 p{
+    padding: 10px;
+}
+.mid2 h5{
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    word-spacing: 5px;
+}
+.strno{
+    padding-left: 10px;
+    color:#FFCE7A;
+}
+.mid4 p{
+    padding: 10px;
+}
+.mid4 h5{
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    word-spacing: 5px;
+}
+.mid6 p{
+    padding: 10px;
+}
+.mid6 h5{
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    word-spacing: 5px;
+}
+.footer1{
+    margin-top:80px;
+    background: #F10E34;
+    height:200px;
+    padding:40px 0;
+}
+.footer2{
+    background: #222222;
+    color: white;
+    padding:50px 0;
+}
+.mar p i{
+    color: #F10E34;
+    padding-right: 10px;
+}
+.social i{
+    color:#F10E34;
+    padding-right: 10px;
+}
+.fac i{
+    color:#F10E34;
+    padding-right: 10px;
+}
+.mar{
+    text-align: left;
+    padding-right: 40px;
+}
+.mar p{
+    padding:10px 0;
+}
+.info{
+    padding-right: 40px;
+    margin-top: 20px;
+}
+.info p{
+    padding: 5px 0;
+}
+.info h3{
+    padding-bottom: 20px;
+}
+.social{
+    padding-right: 40px;
+    margin-top: 20px;
+}
+.social p{
+    padding: 5px 0;
+}
+.social h3{
+    padding-bottom: 20px;
+}
+.fac{
+    padding-right: 40px;
+    margin-top: 65px;
+}
+.fac p{
+    padding: 5px 0;
+}
+.time{
+    padding-right: 40px;
+    margin-top: 20px;
+}
+.time p{
+    padding: 5px 0;
+}
+.time i{
+    color:#F10E34;
+    padding-right: 10px;
+}
+.time h3{
+    padding-bottom: 20px;
+}
+.pay{
+    margin-top:40px;
+}
+.fo1{
+    padding-bottom: 10px;
+}
+.footer3{
+    background: black ;
+    color: white;
+    text-align: center;
+    height: 200px;
+    padding-top: 80px;
+}
+.search p{
+    word-spacing: 30px;
+    padding-bottom: 30px;
+}
+.all p{
+    word-spacing: 10px;
+}
+.all p i{
+    color: white;
+    padding-right: 10px;
+}
